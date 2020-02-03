@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.globatrendsvist.app"
+        versionCode = "10"
+        version     = "1.0.0">
+
+    <name>Fashionista</name>
+
+    <description>
+        
+    </description>
+
+    <author>Tadapp</author>
+
+    <plugin name='cordova-plugin-splashscreen' />
+    <plugin name='cordova-plugin-inappbrowser' />
+    <plugin name='cordova-plugin-network-information' />
+
+    <preference name='phonegap-version' value='cli-9.0.0' />
+
+    <gap:plugin name='onesignal-cordova-plugin' spec='2.4.5' source='npm' />
+
+    <preference name='android-build-tool' value='gradle' />
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name='orientation' value='portrait' />
+
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="SplashScreenSpinnerColor" value="#ffffff" />
+
+    <preference name="Fullscreen" value="false" />
+
+
+    <platform name="android">
+        <icon src="res/android/icon/1580735829_b031069bd36827e11e9c.png" density="ldpi" />
+        <icon src="res/android/icon/1580735829_0c4840112e5c06adf383.png" density="mdpi" />
+        <icon src="res/android/icon/1580735829_17146c14c03b4abc8585.png" density="hdpi" />
+        <icon src="res/android/icon/1580735829_a5ef26149d8195fa597c.png" density="xhdpi" />
+        <icon src="res/android/icon/1580735829_f31c72786d5a72c5ab76.png" density="xxhdpi" />
+        <icon src="res/android/icon/1580735829_13eccc27f784ecb5d240.png" density="xxxhdpi" />
+
+        <splash src="res/android/screen/1580736035_255c995f6a2aa41074ea.png" density="port-hdpi"/>
+        <splash src="res/android/screen/1580736035_3b41795c8466ba197e32.png" density="port-ldpi"/>
+        <splash src="res/android/screen/1580736035_5fbf66b4bbc6bb463684.png" density="port-mdpi"/>
+        <splash src="res/android/screen/1580736035_a3a69babbda801905753.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/1580736035_a2cab59724a26e01a1fa.png" density="land-hdpi"/>
+        <splash src="res/android/screen/1580736035_882b21520f5442686228.png" density="land-ldpi"/>
+        <splash src="res/android/screen/1580736035_4aa19214eca0bd576d66.png" density="land-mdpi"/>
+        <splash src="res/android/screen/1580736035_a3e3b24e7a377dc1bc0f.png" density="land-xhdpi"/>
+    </platform>
+
+    <access origin='*'/>
+    <plugin name='cordova-plugin-whitelist' />
+    <allow-intent href='http://*/*'/>
+    <allow-intent href='https://*/*'/>
+    <allow-intent href='tel:*'/>
+    <allow-intent href='sms:*'/>
+    <allow-intent href='mailto:*'/>
+    <allow-intent href='geo:*'/>
+
+</widget>
